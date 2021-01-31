@@ -9,7 +9,7 @@ from fastai import *
 from fastai.vision import *
 
 model_file_url = 'https://drive.google.com/uc?export=download&id=1Vq22Czo7zQx6oJ2d-zFftrC5kpMMr-kq'
-model_file_name = 'stage-1'
+model_file_name = 'stage-1.pth'
 classes = ['dirty', 'clean']
 path = Path(__file__).parent
 
