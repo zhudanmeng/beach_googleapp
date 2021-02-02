@@ -10,7 +10,7 @@ from fastai.vision import *
 
 model_file_url = 'https://drive.google.com/uc?export=download&id=1DEPvO7U5FE027b_zEgrptdlD_Fa5ksfT'
 model_file_name = 'model'
-classes = ['dirty', 'clean']
+classes = ['clean', 'dirty']
 path = Path(__file__).parent
 
 app = Starlette()
